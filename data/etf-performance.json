@@ -1,7 +1,7 @@
 {
   "version": 1,
   "asOf": "2026-10-01",
-  "generatedAt": "2026-10-01T17:33:10+00:00",
+  "generatedAt": "2026-10-01T19:02:51+00:00",
   "source": "Yahoo Finance chart adjusted close where available; manual_required for unmapped instruments.",
   "methodology": "Return metrics use adjusted close from Yahoo Finance chart data when available. 3Y and 5Y returns are annualized. YTD starts at the last available close of the prior year. Trailing returns require a valid observation on or within seven calendar days before the anniversary; insufficient history returns null. Current-session candles are excluded until 15 minutes after the regular close. Volatility is annualized from trailing daily returns. Benchmark failures do not discard current instrument prices; the prior benchmark series may be retained and explicitly marked stale. Public/free data may differ from licensed index-provider total return data.",
   "benchmarkPolicy": "Global listings retain their configured SPY, QQQ, Fed Funds or CPI comparisons. Brazil listings use BRL comparisons: Brazilian equities, gold and crypto versus BOVA11; international equities versus IVVB11; Brazilian fixed income versus compounded daily CDI from Banco Central do Brasil SGS 12. Comparison references are not necessarily tracked indices. Returns are in each listing's trading currency, not converted to a common currency.",
@@ -6932,7 +6932,7 @@
           },
           {
             "date": "2024-08-02",
-            "etf": 117.62,
+            "etf": 117.63,
             "sp500": 126.01
           },
           {
@@ -7842,7 +7842,7 @@
           },
           {
             "date": "2024-06-13",
-            "etf": 128.57,
+            "etf": 128.58,
             "sp500": 127.86
           },
           {
@@ -8362,7 +8362,7 @@
           },
           {
             "date": "2026-03-13",
-            "etf": 222.95,
+            "etf": 222.96,
             "sp500": 159.47
           },
           {
@@ -8577,7 +8577,7 @@
       "maxDrawdown1yPct": -26.4,
       "benchmarkStatus": "stale",
       "benchmarkAsOf": "2026-09-30",
-      "cpiAsOf": "2026-09-29",
+      "cpiAsOf": "2026-09-30",
       "benchmarkError": "CPI: The read operation timed out",
       "performanceChart": {
         "base": 100,
@@ -11850,7 +11850,7 @@
           },
           {
             "date": "2024-07-22",
-            "etf": 130.39,
+            "etf": 130.4,
             "sp500": 131.15
           },
           {
@@ -37289,7 +37289,7 @@
           },
           {
             "date": "2024-01-12",
-            "etf": 105.65,
+            "etf": 105.66,
             "sp500": 112.01
           },
           {
@@ -38182,7 +38182,7 @@
           },
           {
             "date": "2023-11-10",
-            "etf": 101.42,
+            "etf": 101.41,
             "sp500": 103.11
           },
           {
@@ -38882,7 +38882,7 @@
           },
           {
             "date": "2026-03-19",
-            "etf": 161.83,
+            "etf": 161.82,
             "sp500": 158.87
           },
           {
@@ -42854,7 +42854,7 @@
       "maxDrawdown1yPct": -0.03,
       "benchmarkStatus": "stale",
       "benchmarkError": "The read operation timed out",
-      "benchmarkAsOf": "2026-09-29",
+      "benchmarkAsOf": "2026-10-01",
       "performanceChart": {
         "base": 100,
         "period": "3y_or_available",
@@ -47675,7 +47675,7 @@
           },
           {
             "date": "2023-12-22",
-            "etf": 107.47,
+            "etf": 107.48,
             "sp500": 111.29
           },
           {
@@ -48550,7 +48550,7 @@
       "maxDrawdown1yPct": -26.36,
       "benchmarkStatus": "stale",
       "benchmarkAsOf": "2026-09-30",
-      "cpiAsOf": "2026-09-29",
+      "cpiAsOf": "2026-09-30",
       "benchmarkError": "CPI: The read operation timed out",
       "performanceChart": {
         "base": 100,
@@ -50618,7 +50618,7 @@
       "maxDrawdown1yPct": -0.92,
       "benchmarkStatus": "stale",
       "benchmarkError": "The read operation timed out",
-      "benchmarkAsOf": "2026-09-29",
+      "benchmarkAsOf": "2026-10-01",
       "performanceChart": {
         "base": 100,
         "period": "3y_or_available",
@@ -51561,7 +51561,7 @@
       "maxDrawdown1yPct": -3.95,
       "benchmarkStatus": "stale",
       "benchmarkError": "The read operation timed out",
-      "benchmarkAsOf": "2026-09-29",
+      "benchmarkAsOf": "2026-10-01",
       "performanceChart": {
         "base": 100,
         "period": "3y_or_available",
@@ -52504,7 +52504,7 @@
       "maxDrawdown1yPct": -6.62,
       "benchmarkStatus": "stale",
       "benchmarkError": "The read operation timed out",
-      "benchmarkAsOf": "2026-09-29",
+      "benchmarkAsOf": "2026-10-01",
       "performanceChart": {
         "base": 100,
         "period": "3y_or_available",
@@ -53447,7 +53447,7 @@
       "maxDrawdown1yPct": -11.9,
       "benchmarkStatus": "stale",
       "benchmarkError": "The read operation timed out",
-      "benchmarkAsOf": "2026-09-29",
+      "benchmarkAsOf": "2026-10-01",
       "performanceChart": {
         "base": 100,
         "period": "3y_or_available",
@@ -54390,7 +54390,7 @@
       "maxDrawdown1yPct": -3.02,
       "benchmarkStatus": "stale",
       "benchmarkError": "The read operation timed out",
-      "benchmarkAsOf": "2026-09-29",
+      "benchmarkAsOf": "2026-10-01",
       "performanceChart": {
         "base": 100,
         "period": "3y_or_available",
@@ -55333,7 +55333,7 @@
       "maxDrawdown1yPct": -4.04,
       "benchmarkStatus": "stale",
       "benchmarkError": "The read operation timed out",
-      "benchmarkAsOf": "2026-09-29",
+      "benchmarkAsOf": "2026-10-01",
       "performanceChart": {
         "base": 100,
         "period": "3y_or_available",
@@ -56276,7 +56276,7 @@
       "maxDrawdown1yPct": -1.4,
       "benchmarkStatus": "stale",
       "benchmarkError": "The read operation timed out",
-      "benchmarkAsOf": "2026-09-29",
+      "benchmarkAsOf": "2026-10-01",
       "performanceChart": {
         "base": 100,
         "period": "3y_or_available",
@@ -57219,7 +57219,7 @@
       "maxDrawdown1yPct": -6.28,
       "benchmarkStatus": "stale",
       "benchmarkError": "The read operation timed out",
-      "benchmarkAsOf": "2026-09-29",
+      "benchmarkAsOf": "2026-10-01",
       "performanceChart": {
         "base": 100,
         "period": "3y_or_available",
@@ -58162,7 +58162,7 @@
       "maxDrawdown1yPct": -3.13,
       "benchmarkStatus": "stale",
       "benchmarkError": "The read operation timed out",
-      "benchmarkAsOf": "2026-09-29",
+      "benchmarkAsOf": "2026-10-01",
       "performanceChart": {
         "base": 100,
         "period": "3y_or_available",
@@ -59105,7 +59105,7 @@
       "maxDrawdown1yPct": -3.19,
       "benchmarkStatus": "stale",
       "benchmarkError": "The read operation timed out",
-      "benchmarkAsOf": "2026-09-29",
+      "benchmarkAsOf": "2026-10-01",
       "performanceChart": {
         "base": 100,
         "period": "3y_or_available",
@@ -60048,7 +60048,7 @@
       "maxDrawdown1yPct": -0.01,
       "benchmarkStatus": "stale",
       "benchmarkError": "The read operation timed out",
-      "benchmarkAsOf": "2026-09-29",
+      "benchmarkAsOf": "2026-09-30",
       "performanceChart": {
         "base": 100,
         "period": "3y_or_available",
@@ -60867,7 +60867,7 @@
           },
           {
             "date": "2026-06-18",
-            "etf": 113.08,
+            "etf": 113.07,
             "cash": 112.8
           },
           {
@@ -60991,7 +60991,7 @@
       "maxDrawdown1yPct": -0.91,
       "benchmarkStatus": "stale",
       "benchmarkError": "The read operation timed out",
-      "benchmarkAsOf": "2026-09-29",
+      "benchmarkAsOf": "2026-09-30",
       "performanceChart": {
         "base": 100,
         "period": "3y_or_available",
@@ -61480,7 +61480,7 @@
           },
           {
             "date": "2025-05-12",
-            "etf": 108.49,
+            "etf": 108.48,
             "cash": 108.04
           },
           {
@@ -61934,7 +61934,7 @@
       "maxDrawdown1yPct": -3.98,
       "benchmarkStatus": "stale",
       "benchmarkError": "The read operation timed out",
-      "benchmarkAsOf": "2026-09-29",
+      "benchmarkAsOf": "2026-09-30",
       "performanceChart": {
         "base": 100,
         "period": "3y_or_available",
@@ -62877,7 +62877,7 @@
       "maxDrawdown1yPct": -6.72,
       "benchmarkStatus": "stale",
       "benchmarkError": "The read operation timed out",
-      "benchmarkAsOf": "2026-09-29",
+      "benchmarkAsOf": "2026-09-30",
       "performanceChart": {
         "base": 100,
         "period": "3y_or_available",
@@ -63820,7 +63820,7 @@
       "maxDrawdown1yPct": -12.06,
       "benchmarkStatus": "stale",
       "benchmarkError": "The read operation timed out",
-      "benchmarkAsOf": "2026-09-29",
+      "benchmarkAsOf": "2026-09-30",
       "performanceChart": {
         "base": 100,
         "period": "3y_or_available",
@@ -64763,7 +64763,7 @@
       "maxDrawdown1yPct": -1.39,
       "benchmarkStatus": "stale",
       "benchmarkError": "The read operation timed out",
-      "benchmarkAsOf": "2026-09-29",
+      "benchmarkAsOf": "2026-09-30",
       "performanceChart": {
         "base": 100,
         "period": "3y_or_available",
@@ -65706,7 +65706,7 @@
       "maxDrawdown1yPct": -3.93,
       "benchmarkStatus": "stale",
       "benchmarkError": "The read operation timed out",
-      "benchmarkAsOf": "2026-09-29",
+      "benchmarkAsOf": "2026-09-30",
       "performanceChart": {
         "base": 100,
         "period": "3y_or_available",
@@ -66140,7 +66140,7 @@
           },
           {
             "date": "2025-03-06",
-            "etf": 110.0,
+            "etf": 109.99,
             "cash": 107.18
           },
           {
@@ -66649,7 +66649,7 @@
       "maxDrawdown1yPct": -6.01,
       "benchmarkStatus": "stale",
       "benchmarkError": "The read operation timed out",
-      "benchmarkAsOf": "2026-09-29",
+      "benchmarkAsOf": "2026-09-30",
       "performanceChart": {
         "base": 100,
         "period": "3y_or_available",
@@ -67592,7 +67592,7 @@
       "maxDrawdown1yPct": -2.86,
       "benchmarkStatus": "stale",
       "benchmarkError": "The read operation timed out",
-      "benchmarkAsOf": "2026-09-29",
+      "benchmarkAsOf": "2026-09-30",
       "performanceChart": {
         "base": 100,
         "period": "3y_or_available",
@@ -67906,7 +67906,7 @@
           },
           {
             "date": "2024-10-08",
-            "etf": 115.81,
+            "etf": 115.82,
             "cash": 105.33
           },
           {
@@ -68535,7 +68535,7 @@
       "maxDrawdown1yPct": -4.55,
       "benchmarkStatus": "stale",
       "benchmarkError": "The read operation timed out",
-      "benchmarkAsOf": "2026-09-29",
+      "benchmarkAsOf": "2026-09-30",
       "performanceChart": {
         "base": 100,
         "period": "3y_or_available",
@@ -72151,7 +72151,7 @@
           },
           {
             "date": "2026-04-24",
-            "etf": 152.52,
+            "etf": 152.51,
             "sp500": 172.37
           },
           {
@@ -75316,7 +75316,7 @@
           },
           {
             "date": "2024-03-08",
-            "etf": 141.41,
+            "etf": 141.42,
             "sp500": 120.24
           },
           {
@@ -87562,7 +87562,7 @@
           },
           {
             "date": "2024-01-02",
-            "etf": 92.99,
+            "etf": 93.0,
             "sp500": 111.06
           },
           {
@@ -89368,7 +89368,7 @@
       "maxDrawdown1yPct": -27.82,
       "benchmarkStatus": "stale",
       "benchmarkAsOf": "2026-09-30",
-      "cpiAsOf": "2026-09-29",
+      "cpiAsOf": "2026-09-30",
       "benchmarkError": "CPI: The read operation timed out",
       "performanceChart": {
         "base": 100,
@@ -90098,7 +90098,7 @@
           },
           {
             "date": "2025-10-03",
-            "etf": 182.27,
+            "etf": 182.26,
             "cpi": 105.52,
             "sp500": 160.66
           },
@@ -97717,7 +97717,7 @@
           },
           {
             "date": "2025-10-22",
-            "etf": 126.66,
+            "etf": 126.67,
             "sp500": 160.32
           },
           {
@@ -98402,7 +98402,7 @@
           },
           {
             "date": "2024-12-02",
-            "etf": 136.86,
+            "etf": 136.85,
             "qqq": 143.62
           },
           {
@@ -99117,7 +99117,7 @@
           },
           {
             "date": "2024-02-20",
-            "etf": 106.21,
+            "etf": 106.22,
             "sp500": 116.72
           },
           {
@@ -100972,7 +100972,7 @@
           },
           {
             "date": "2023-12-26",
-            "etf": 108.53,
+            "etf": 108.52,
             "sp500": 111.76
           },
           {
@@ -102162,7 +102162,7 @@
           },
           {
             "date": "2024-10-14",
-            "etf": 127.65,
+            "etf": 127.64,
             "sp500": 138.59
           },
           {
@@ -102307,7 +102307,7 @@
           },
           {
             "date": "2025-04-10",
-            "etf": 125.11,
+            "etf": 125.12,
             "sp500": 125.22
           },
           {
@@ -102462,7 +102462,7 @@
           },
           {
             "date": "2025-10-16",
-            "etf": 129.32,
+            "etf": 129.31,
             "sp500": 158.6
           },
           {
@@ -112497,7 +112497,7 @@
           },
           {
             "date": "2024-08-20",
-            "etf": 47.39,
+            "etf": 47.38,
             "sp500": 132.11
           },
           {
@@ -114120,7 +114120,7 @@
       "maxDrawdown1yPct": -26.27,
       "benchmarkStatus": "stale",
       "benchmarkAsOf": "2026-09-30",
-      "cpiAsOf": "2026-09-29",
+      "cpiAsOf": "2026-09-30",
       "benchmarkError": "CPI: The read operation timed out",
       "performanceChart": {
         "base": 100,
@@ -115248,7 +115248,7 @@
       "maxDrawdown1yPct": -52.27,
       "benchmarkStatus": "stale",
       "benchmarkAsOf": "2026-09-30",
-      "cpiAsOf": "2026-09-29",
+      "cpiAsOf": "2026-09-30",
       "benchmarkError": "CPI: The read operation timed out",
       "performanceChart": {
         "base": 100,
@@ -116376,7 +116376,7 @@
       "maxDrawdown1yPct": -52.28,
       "benchmarkStatus": "stale",
       "benchmarkAsOf": "2026-09-30",
-      "cpiAsOf": "2026-09-29",
+      "cpiAsOf": "2026-09-30",
       "benchmarkError": "CPI: The read operation timed out",
       "performanceChart": {
         "base": 100,
@@ -117504,7 +117504,7 @@
       "maxDrawdown1yPct": -43.98,
       "benchmarkStatus": "stale",
       "benchmarkAsOf": "2026-09-30",
-      "cpiAsOf": "2026-09-29",
+      "cpiAsOf": "2026-09-30",
       "benchmarkError": "CPI: The read operation timed out",
       "performanceChart": {
         "base": 100,
@@ -118632,7 +118632,7 @@
       "maxDrawdown1yPct": -43.2,
       "benchmarkStatus": "stale",
       "benchmarkAsOf": "2026-09-30",
-      "cpiAsOf": "2026-09-29",
+      "cpiAsOf": "2026-09-30",
       "benchmarkError": "CPI: The read operation timed out",
       "performanceChart": {
         "base": 100,
@@ -119760,7 +119760,7 @@
       "maxDrawdown1yPct": -32.49,
       "benchmarkStatus": "stale",
       "benchmarkAsOf": "2026-09-30",
-      "cpiAsOf": "2026-09-29",
+      "cpiAsOf": "2026-09-30",
       "benchmarkError": "CPI: The read operation timed out",
       "performanceChart": {
         "base": 100,
@@ -120888,7 +120888,7 @@
       "maxDrawdown1yPct": -34.46,
       "benchmarkStatus": "stale",
       "benchmarkAsOf": "2026-09-30",
-      "cpiAsOf": "2026-09-29",
+      "cpiAsOf": "2026-09-30",
       "benchmarkError": "CPI: The read operation timed out",
       "performanceChart": {
         "base": 100,
@@ -122016,7 +122016,7 @@
       "maxDrawdown1yPct": -43.02,
       "benchmarkStatus": "stale",
       "benchmarkAsOf": "2026-09-30",
-      "cpiAsOf": "2026-09-29",
+      "cpiAsOf": "2026-09-30",
       "benchmarkError": "CPI: The read operation timed out",
       "performanceChart": {
         "base": 100,
@@ -123144,7 +123144,7 @@
       "maxDrawdown1yPct": -16.43,
       "benchmarkStatus": "stale",
       "benchmarkAsOf": "2026-09-30",
-      "cpiAsOf": "2026-09-29",
+      "cpiAsOf": "2026-09-30",
       "benchmarkError": "CPI: The read operation timed out",
       "performanceChart": {
         "base": 100,
@@ -124272,7 +124272,7 @@
       "maxDrawdown1yPct": -8.67,
       "benchmarkStatus": "stale",
       "benchmarkAsOf": "2026-09-30",
-      "cpiAsOf": "2026-09-29",
+      "cpiAsOf": "2026-09-30",
       "benchmarkError": "CPI: The read operation timed out",
       "performanceChart": {
         "base": 100,
@@ -125400,7 +125400,7 @@
       "maxDrawdown1yPct": -13.86,
       "benchmarkStatus": "stale",
       "benchmarkAsOf": "2026-09-30",
-      "cpiAsOf": "2026-09-29",
+      "cpiAsOf": "2026-09-30",
       "benchmarkError": "CPI: The read operation timed out",
       "performanceChart": {
         "base": 100,
@@ -126528,7 +126528,7 @@
       "maxDrawdown1yPct": -14.44,
       "benchmarkStatus": "stale",
       "benchmarkAsOf": "2026-09-30",
-      "cpiAsOf": "2026-09-29",
+      "cpiAsOf": "2026-09-30",
       "benchmarkError": "CPI: The read operation timed out",
       "performanceChart": {
         "base": 100,
@@ -127656,7 +127656,7 @@
       "maxDrawdown1yPct": -8.78,
       "benchmarkStatus": "stale",
       "benchmarkAsOf": "2026-09-30",
-      "cpiAsOf": "2026-09-29",
+      "cpiAsOf": "2026-09-30",
       "benchmarkError": "CPI: The read operation timed out",
       "performanceChart": {
         "base": 100,
@@ -128784,7 +128784,7 @@
       "maxDrawdown1yPct": -15.78,
       "benchmarkStatus": "stale",
       "benchmarkAsOf": "2026-09-30",
-      "cpiAsOf": "2026-09-29",
+      "cpiAsOf": "2026-10-01",
       "benchmarkError": "CPI: The read operation timed out",
       "performanceChart": {
         "base": 100,
@@ -129912,7 +129912,7 @@
       "maxDrawdown1yPct": -16.55,
       "benchmarkStatus": "stale",
       "benchmarkAsOf": "2026-09-30",
-      "cpiAsOf": "2026-09-29",
+      "cpiAsOf": "2026-09-30",
       "benchmarkError": "CPI: The read operation timed out",
       "performanceChart": {
         "base": 100,
@@ -131040,7 +131040,7 @@
       "maxDrawdown1yPct": -17.57,
       "benchmarkStatus": "stale",
       "benchmarkAsOf": "2026-09-30",
-      "cpiAsOf": "2026-09-29",
+      "cpiAsOf": "2026-09-30",
       "benchmarkError": "CPI: The read operation timed out",
       "performanceChart": {
         "base": 100,
@@ -132168,7 +132168,7 @@
       "maxDrawdown1yPct": -11.17,
       "benchmarkStatus": "stale",
       "benchmarkAsOf": "2026-09-30",
-      "cpiAsOf": "2026-09-29",
+      "cpiAsOf": "2026-09-30",
       "benchmarkError": "CPI: The read operation timed out",
       "performanceChart": {
         "base": 100,
@@ -133296,7 +133296,7 @@
       "maxDrawdown1yPct": -38.93,
       "benchmarkStatus": "stale",
       "benchmarkAsOf": "2026-09-30",
-      "cpiAsOf": "2026-09-29",
+      "cpiAsOf": "2026-09-30",
       "benchmarkError": "CPI: The read operation timed out",
       "performanceChart": {
         "base": 100,
@@ -134424,7 +134424,7 @@
       "maxDrawdown1yPct": -41.32,
       "benchmarkStatus": "stale",
       "benchmarkAsOf": "2026-09-30",
-      "cpiAsOf": "2026-09-29",
+      "cpiAsOf": "2026-09-30",
       "benchmarkError": "CPI: The read operation timed out",
       "performanceChart": {
         "base": 100,
@@ -135552,7 +135552,7 @@
       "maxDrawdown1yPct": -39.41,
       "benchmarkStatus": "stale",
       "benchmarkAsOf": "2026-09-30",
-      "cpiAsOf": "2026-09-29",
+      "cpiAsOf": "2026-09-30",
       "benchmarkError": "CPI: The read operation timed out",
       "performanceChart": {
         "base": 100,
@@ -136680,7 +136680,7 @@
       "maxDrawdown1yPct": -41.12,
       "benchmarkStatus": "stale",
       "benchmarkAsOf": "2026-09-30",
-      "cpiAsOf": "2026-09-29",
+      "cpiAsOf": "2026-09-30",
       "benchmarkError": "CPI: The read operation timed out",
       "performanceChart": {
         "base": 100,
@@ -137808,7 +137808,7 @@
       "maxDrawdown1yPct": -15.04,
       "benchmarkStatus": "stale",
       "benchmarkAsOf": "2026-09-30",
-      "cpiAsOf": "2026-09-29",
+      "cpiAsOf": "2026-09-30",
       "benchmarkError": "CPI: The read operation timed out",
       "performanceChart": {
         "base": 100,
@@ -138936,7 +138936,7 @@
       "maxDrawdown1yPct": -39.3,
       "benchmarkStatus": "stale",
       "benchmarkAsOf": "2026-09-30",
-      "cpiAsOf": "2026-09-29",
+      "cpiAsOf": "2026-09-30",
       "benchmarkError": "CPI: The read operation timed out",
       "performanceChart": {
         "base": 100,
@@ -140064,7 +140064,7 @@
       "maxDrawdown1yPct": -43.89,
       "benchmarkStatus": "stale",
       "benchmarkAsOf": "2026-09-30",
-      "cpiAsOf": "2026-09-29",
+      "cpiAsOf": "2026-09-30",
       "benchmarkError": "CPI: The read operation timed out",
       "performanceChart": {
         "base": 100,
@@ -141192,7 +141192,7 @@
       "maxDrawdown1yPct": -26.84,
       "benchmarkStatus": "stale",
       "benchmarkAsOf": "2026-09-30",
-      "cpiAsOf": "2026-09-29",
+      "cpiAsOf": "2026-09-30",
       "benchmarkError": "CPI: The read operation timed out",
       "performanceChart": {
         "base": 100,
@@ -142320,7 +142320,7 @@
       "maxDrawdown1yPct": -41.33,
       "benchmarkStatus": "stale",
       "benchmarkAsOf": "2026-09-30",
-      "cpiAsOf": "2026-09-29",
+      "cpiAsOf": "2026-09-30",
       "benchmarkError": "CPI: The read operation timed out",
       "performanceChart": {
         "base": 100,
@@ -143448,7 +143448,7 @@
       "maxDrawdown1yPct": -21.64,
       "benchmarkStatus": "stale",
       "benchmarkAsOf": "2026-09-30",
-      "cpiAsOf": "2026-09-29",
+      "cpiAsOf": "2026-09-30",
       "benchmarkError": "CPI: The read operation timed out",
       "performanceChart": {
         "base": 100,
@@ -144576,7 +144576,7 @@
       "maxDrawdown1yPct": -13.78,
       "benchmarkStatus": "stale",
       "benchmarkAsOf": "2026-09-30",
-      "cpiAsOf": "2026-09-29",
+      "cpiAsOf": "2026-09-30",
       "benchmarkError": "CPI: The read operation timed out",
       "performanceChart": {
         "base": 100,
@@ -145770,7 +145770,7 @@
           },
           {
             "date": "2023-12-12",
-            "etf": 107.24,
+            "etf": 107.25,
             "sp500": 108.61
           },
           {
@@ -149083,7 +149083,7 @@
           },
           {
             "date": "2025-06-30",
-            "etf": 119.21,
+            "etf": 119.2,
             "sp500": 147.92
           },
           {
