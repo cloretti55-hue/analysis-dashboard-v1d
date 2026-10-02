@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "environment": "labs",
-  "generatedAt": "2026-10-02T16:52:37+00:00",
+  "generatedAt": "2026-10-02T18:38:59+00:00",
   "summary": {
     "datasetCount": 11,
     "statusCounts": {
@@ -166,7 +166,7 @@
       ],
       "producer": "scripts/update-etf-performance.py",
       "workflow": ".github/workflows/update-etf-performance.yml",
-      "sha256": "2bfbfe5c9a98597649251453ed23eb61b4c06d4938ef76939397187ceca95d8c",
+      "sha256": "b87537847dc471c757467353387dcaddd920730100491123f878ddc90fe359e5",
       "recordCount": 172,
       "chartCoverage": 1.0,
       "statusCounts": {
@@ -199,7 +199,7 @@
       ],
       "producer": "scripts/update-etf-performance.py",
       "workflow": ".github/workflows/update-etf-performance.yml",
-      "sha256": "ab8f5946fb2a1fc9ed31cbeec506f09fa824be6cd104e2037902cf1584f05d13",
+      "sha256": "c4517c2248dcb30bea3b0be421d635e154c94361c10d86483360e1ed85e901fb",
       "recordCount": 21,
       "chartCoverage": 1.0,
       "statusCounts": {
