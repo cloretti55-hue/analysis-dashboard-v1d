@@ -1,40 +1,18 @@
 {
   "schemaVersion": 1,
   "environment": "labs",
-  "generatedAt": "2026-10-10T17:26:37+00:00",
+  "generatedAt": "2026-10-10T17:36:48+00:00",
   "summary": {
-    "datasetCount": 12,
+    "datasetCount": 11,
     "statusCounts": {
-      "error": 1,
       "manual": 1,
       "ok": 7,
       "partial": 1,
       "stale": 2
     },
-    "blockingErrorCount": 1
+    "blockingErrorCount": 0
   },
   "datasets": [
-    {
-      "id": "broad-market-valuation",
-      "path": "data/broad-market-valuation.json",
-      "kind": "generated",
-      "status": "error",
-      "asOf": null,
-      "maxAgeDays": 7,
-      "consumer": [
-        "Equity Valuation"
-      ],
-      "producer": "scripts/prepare-broad-market.py",
-      "workflow": ".github/workflows/update-broad-market.yml",
-      "sha256": null,
-      "issues": [
-        {
-          "severity": "error",
-          "code": "unreadable_json",
-          "message": "[Errno 2] No such file or directory: '/home/runner/work/analysis-dashboard-v1d/analysis-dashboard-v1d/data/broad-market-valuation.json'"
-        }
-      ]
-    },
     {
       "id": "curve-us",
       "path": "data/curve-us.json",
@@ -189,7 +167,7 @@
       ],
       "producer": "scripts/update-etf-performance.py",
       "workflow": ".github/workflows/update-etf-performance.yml",
-      "sha256": "956566cc6130f661b0a631f039b15fce725391f8639e0d662f6d212208ee9564",
+      "sha256": "6e94ade8cc6ec98cd080ef83d1764b6b3b6bf3ce2bb8ca3336c5196b4bb4e3db",
       "recordCount": 197,
       "chartCoverage": 1.0,
       "statusCounts": {
@@ -222,7 +200,7 @@
       ],
       "producer": "scripts/update-etf-performance.py",
       "workflow": ".github/workflows/update-etf-performance.yml",
-      "sha256": "b5c8784acd4d9284ac93fbf91295652504d941788fa312d5a8bcfcdb3026089d",
+      "sha256": "75df8090bfb8342a1bc641c81c57962d120616c3907ccd815b45c08b1d622f5c",
       "recordCount": 21,
       "chartCoverage": 1.0,
       "statusCounts": {
