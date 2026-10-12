@@ -2771,6 +2771,22 @@ const BRAZIL_FAMILIES = {
   "Bitcoin": ["Dedicated Bitcoin exposure through a B3-listed fund.", "The exchange session is shorter than the continuous trading week of the underlying asset."]
 };
 
+const LIQUID_MANAGEMENT_STYLES = {
+  DBMF: "Active — Copies Leading Hedge Fund Strategies",
+  CTA: "Active — Mathematical Trading Models",
+  FMF: "Active — Mathematical Trading Models",
+  FFUT: "Active — Follows Market Trends",
+  WTMF: "Active — Follows Market Trends",
+  SDMF: "Passive — DBi CTA Managed Futures Index",
+  KMLM: "Passive — KFA MLM Index",
+  BTAL: "Active — Buys Low-Risk Stocks, Shorts High-Risk Stocks",
+  FTLS: "Active — Manager Selects Long and Short Stocks",
+  MNA: "Passive — NYLIM Merger Arbitrage Index",
+  HFGM: "Active — Copies Global Macro Hedge Fund Strategies",
+  GMAC: "Active — Manager Makes Global Economic Bets",
+  SAMM: "Active — Invests in Markets Showing Strong Momentum"
+};
+
 const LIQUID_SUBFAMILY_SUMMARIES = {
   "Broad Managed Futures": "Systematic long/short strategies across multiple futures markets, seeking diversified returns from trends and other market signals.",
   "Trend Following": "Systematic long/short strategies designed to capture persistent price trends across markets.",
@@ -2803,6 +2819,8 @@ function LiquidAlternativesModule({ items, initialEtf, dataLabTickers }) {
       React.createElement("div", { className: "detail-role" }, active.name),
       React.createElement("div", { className: "etf-trading-details data-note" }, `Exchange: ${active.exchange} · Trading currency: USD (US dollar) · Listing: ${active.quoteSymbol}`),
       React.createElement(EtfFundAssets, { instruments: active.ticker }),
+      LIQUID_MANAGEMENT_STYLES[active.ticker] && React.createElement("div", { className: "liquid-management-style" },
+        React.createElement("strong", null, "Management Style: "), LIQUID_MANAGEMENT_STYLES[active.ticker]),
       React.createElement("p", null, active.description), React.createElement("p", null, active.detail),
       React.createElement("p", { className: "data-note" }, "DataLab compares the strategy with the S&P 500 and accrued Fed Funds. These are comparison references, not tracked indices. Fed Funds represents a synthetic cash return compounded daily before fees and taxes."),
       React.createElement("a", { className: "data-note", href: active.sourceUrl, target: "_blank", rel: "noopener noreferrer" }, "Fund information ↗")));
