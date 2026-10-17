@@ -1,14 +1,14 @@
 {
   "schemaVersion": 1,
   "environment": "labs",
-  "generatedAt": "2026-10-16T23:45:19+00:00",
+  "generatedAt": "2026-10-17T00:42:27+00:00",
   "summary": {
     "datasetCount": 11,
     "statusCounts": {
       "manual": 1,
-      "ok": 7,
+      "ok": 6,
       "partial": 1,
-      "stale": 2
+      "stale": 3
     },
     "blockingErrorCount": 0
   },
@@ -85,7 +85,7 @@
       "id": "sp500-valuation",
       "path": "data/sp500-valuation.json",
       "kind": "generated",
-      "status": "ok",
+      "status": "stale",
       "asOf": "2026-10-02",
       "maxAgeDays": 14,
       "consumer": [
@@ -94,7 +94,13 @@
       "producer": "scripts/update-sp500-valuation.py",
       "workflow": ".github/workflows/update-sp500-valuation.yml",
       "sha256": "333020e809ba287f2a4ae5046fb7037270a799f76d5dcc550a62fae66bbfc13c",
-      "issues": []
+      "issues": [
+        {
+          "severity": "warning",
+          "code": "stale_dataset",
+          "message": "Dataset asOf=2026-10-02 exceeds maxAgeDays=14"
+        }
+      ]
     },
     {
       "id": "sp500-pe-history",
@@ -167,19 +173,19 @@
       ],
       "producer": "scripts/update-etf-performance.py",
       "workflow": ".github/workflows/update-etf-performance.yml",
-      "sha256": "2b43f16ee135b1cf22ac9b441aa50dcee32bb52185c68c6649b618065f900bce",
+      "sha256": "3ffd871bef08978bb109ac553872999ca582cac247e16a9b09397fd65922f886",
       "recordCount": 197,
       "chartCoverage": 1.0,
       "statusCounts": {
         "ok": 197
       },
-      "staleCount": 1,
+      "staleCount": 2,
       "staleBenchmarkCount": 31,
       "issues": [
         {
           "severity": "warning",
           "code": "stale_instruments",
-          "message": "1 instrument(s) use prior valid data"
+          "message": "2 instrument(s) use prior valid data"
         },
         {
           "severity": "warning",
@@ -193,14 +199,14 @@
       "path": "data/fixed-income-performance.json",
       "kind": "generated_fallback",
       "status": "ok",
-      "asOf": "2026-10-16",
+      "asOf": "2026-10-15",
       "maxAgeDays": 5,
       "consumer": [
         "Data Lab"
       ],
       "producer": "scripts/update-etf-performance.py",
       "workflow": ".github/workflows/update-etf-performance.yml",
-      "sha256": "6c9e25d7eb6ae58e5904bf50a719f926c88797ff08d5628db8202ef9b3cc6222",
+      "sha256": "20717ed5634d1455aea70847a6a58666ed9b4d5e126bbce07c8a1959eafc8554",
       "recordCount": 21,
       "chartCoverage": 1.0,
       "statusCounts": {
